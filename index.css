@@ -18,8 +18,8 @@
 }
 .headimg{
     overflow: hidden;
-    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 80%);
-    mask-image: linear-gradient(to top, transparent 0%, black 80%);
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+    mask-image: linear-gradient(to top, transparent 0%, black 100%);
     width:100%;
     text-align: center;
     filter: blur(2px);
@@ -52,8 +52,8 @@
 .text-up>h1{
     text-transform: uppercase;
     padding: 25px 0px 5px 5px;
-    width: 75%;
-    font-size: 17px;
+    width: 95%;
+    font-size: 20px;
     font-weight: 900;
 }
 .text-mid>h4{
@@ -61,8 +61,11 @@
     padding: 0px 0px 5px 5px;
     width: 85%;
     color: rgb(0, 0, 0,0.7);
-    font-size: 14px;
+    font-size: 13px;
     user-select: none;
+}
+.text-down{
+    width: fit-content;
 }
 .text-down>a{
     text-decoration: none;
@@ -89,7 +92,8 @@
     right: 15px;
 }
 mark{
-    background: green;
+    color: white;
+    background: rgb(255, 0, 0);
     padding: 0px  10px;
     border-radius: 15px;
 }
@@ -109,10 +113,11 @@ mark{
     display: none;
     flex-direction: column;
     width: fit-content;
-    height: 50vh;
+    height: fit-content;
     background: rgb(0, 0, 0,0.9);
     gap: 10px;
     border-radius: 5px;
+    padding: 15px 0px;
 }
 .list>a{
     text-decoration: none;
@@ -194,6 +199,7 @@ mark{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
 }
 .plan>p{
     width: fit-content;
@@ -210,12 +216,12 @@ mark{
     scale: 1.06;
 }
 .textfoter{
-    padding: 5px 25px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 75%;
+    align-items: center;
+    width: 100%;
 }
 .textfoter>h3{
     font-size: 15px;
@@ -223,4 +229,7 @@ mark{
     color: white;
     text-transform: uppercase;
     padding: 15px 0px;
+}
+input:hover{
+    cursor: pointer;
 }
