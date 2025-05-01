@@ -18,7 +18,7 @@
     width: 90%;
     overflow: hidden;
     border: 1px solid rgb(49, 46, 46,0.4);
-    box-shadow: 1px 1px 2px black;
+    box-shadow: 3px 3px 2px black;
     display: flex;
     border-radius: 5px;
     justify-content: center;
@@ -35,14 +35,15 @@ img{
 .text{
     width: 75%;
     text-align: start;
-    padding: 10px;
+    padding: 5px;
+
 }
 h2{
-    font-size: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
     width:fit-content;
-    background: rgb(255, 0, 0,0.2);
     color: white;
-    padding: 0px 5px;
+
 }
 p{
     font-size: 10px;
@@ -61,14 +62,21 @@ p{
     font-size: 13px;
 }
 .back{
-    background: red;
-    width: 100px;
+    border: 1px solid rgb(255, 255, 255,0.4);
+    width: 75px;
     border-radius: 15px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 .back>a{
+    text-transform: capitalize;
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
+}
+.back>a>h4{
+    font-weight: 100;
+}
+.back>a>h4:active{
+    background: rgb(0, 128, 0,0.3);
 }
