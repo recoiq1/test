@@ -92,21 +92,21 @@ img{
 #icon{
     scale: 1.5;
     position: absolute;
-    top: -250px;
+    top: -230px;
     right: 15px;
 }
 .menu{
     width:25px;
     height: 25px;
     position: absolute;
-    top: -250px;
+    top: -230px;
     right: 10px;
     z-index: 5;
     opacity:0;
 }
 .list{
     position: absolute;
-    top: -220px;
+    top: -200px;
     right:0px;
     display: none;
     flex-direction: column;
@@ -256,3 +256,20 @@ input:hover{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+.rakan{
+    height: fit-content;
+    position: absolute;
+    bottom: -75px;
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    animation: rakan 2s infinite;
+    filter: blur(3px);
+}
+.rakan>img{
+    width: 75px;
+    padding:10px 5px;
+}
+
