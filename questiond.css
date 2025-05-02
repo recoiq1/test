@@ -1,3 +1,7 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 body {
     height: 100vh;
     font-family: "Alexandria", sans-serif;
@@ -45,8 +49,9 @@ body {
     border-radius: 6px;
   }
   .back{
-    border: 2px solid rgb(255, 255, 255,0.4);
-    width: 175px;
+    border: 1px solid rgb(255, 255, 255,0.4);
+    width: 150px;
+    padding:0px 10px;
     border-radius: 15px;
     text-align: center;
 }
@@ -57,6 +62,7 @@ body {
 }
 .back>a>h4{
     font-weight: 100;
+    font-size: 24px;
 }
 .back>a>h4:active{
     background: rgb(0, 128, 0,0.3);
