@@ -242,7 +242,7 @@ input:hover{
     width: 100%;
     position: absolute;
     bottom:-105px ;
-    color: rgb(255, 255, 255,0.4);
+    color: rgb(255, 255, 255,0.6);
     text-align: center;
     font-size: 10px;
     display: flex;
@@ -263,12 +263,12 @@ input:hover{
     width: 55%;
     border: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
+    justify-content: center;
     overflow: hidden;
-    animation: rakan 2s infinite;
-    filter: blur(3px);
+    filter: blur(2px);
 }
 .rakan>img{
     width: 75px;
-    padding:10px 5px;
+    padding:5px;
 }
 
