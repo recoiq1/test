@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(34, 36, 34);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.section {
+    border: 1px solid rgb(49, 46, 46,0.4);
+    box-shadow: 8px 8px 2px black;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    margin:25px 50px;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgb(34, 36, 34);
+  }
+  .section h2 {
+    color: #ffffff;
+    font-size: 32px;
+  }
+  .section p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    margin-bottom:125px;
+  }
+  .images {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .images img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .back{
+    border: 1px solid rgb(255, 255, 255,0.4);
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 5px 10px;
+}
+.back>a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.back>a>h4{
+    font-weight: 300;
+}
+.back>a>h4:active{
+    background: rgb(0, 128, 0,0.3);
+}
