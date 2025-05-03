@@ -1,4 +1,6 @@
 *{
+  border-radius: 15px;
+    font-family: "Alexandria", sans-serif;
     padding: 0px;
     margin: 0px;
 }
@@ -15,17 +17,17 @@ body {
     border-radius: 15px;
 }
 .section {
+    gap: 20px;
     border: 1px solid rgb(49, 46, 46,0.4);
     box-shadow: 8px 8px 2px black;
-    height: 20vh;
+    height: fit-content;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    margin:25px 50px;
-    padding: 25px;
+    margin:25px 0px;
+    padding: 50px 25px;
     border-radius: 12px;
-    background: rgb(34, 36, 34);
   }
   .section h2 {
     color: #ffffff;
@@ -34,13 +36,19 @@ body {
   .section p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 23px;
-    margin-bottom:125px;
+    padding-bottom: 125px;
   }
   .images {
+    overflow: hidden;
+    height: fit-content;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
     flex-wrap: wrap;
     margin-top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);;
+    padding: 15px;
   }
   .images img {
     width: 150px;
@@ -54,13 +62,13 @@ body {
     border-radius: 15px;
     text-align: center;
     margin-top: 25px;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 .back>a{
     text-transform: capitalize;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
 }
 .back>a>h4{
     font-weight: 300;
