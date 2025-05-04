@@ -9,21 +9,24 @@ body {
     background: rgb(34, 36, 34);
     margin: 0;
     padding: 0;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
+
 }
 .section {
-    gap: 20px;
+    background:rgb(0, 128, 0,0.1);
     border: 1px solid rgb(49, 46, 46,0.4);
     box-shadow: 8px 8px 2px black;
-    height: fit-content;
+    width: 85%;
+    gap: 15px;
+    height: 25vh;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin:25px 0px;
     padding: 50px 25px;
@@ -31,30 +34,91 @@ body {
   }
   .section h2 {
     color: #ffffff;
-    font-size: 32px;
+    font-size: 35px;
   }
   .section p {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 23px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 26px;
     padding-bottom: 125px;
   }
   .images {
-    overflow: hidden;
+    border: 1px solid black;
+    width: 90%;
     height: fit-content;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    flex-wrap: wrap;
     margin-top: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2);;
+    background: rgb(34, 36, 34);;
+    background-position: center;
+    background-size: cover;
     padding: 15px;
+    flex-wrap: nowrap;
+    overflow: hidden;
   }
-  .images img {
-    width: 150px;
-    height: 220px;
+  .pro{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:fit-content;
+    animation: pro 33s infinite;
+    
+  }
+  @keyframes pro {
+    0%{
+      translate: -650px 0px;
+    }
+    50%{
+      translate: 85% 0px;
+    }
+    75%{
+      translate: 86% 0px;
+    }
+    100%{
+      translate: -650px 0;
+    }
+  }
+.s{
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:fit-content;
+  animation: s 33s infinite;
+}
+  @keyframes s {
+    0%{
+      translate: -1000px 0;
+    }
+    50%{
+      translate: 1020px 0px;
+    }
+    75%{
+      translate: 1030px 0px;
+    }
+    100%{
+      translate: -1000px 0;
+    }
+  }
+#beg2,#beg1{
+    width: 210px;
+    height: auto;
+  }
+#beg3{
+  width: 235px;
+    height: auto;
+}
+  .images>.pro>img {
+    padding: 10px;
+    width: 250px;
+    height: auto;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 25px;
   }
   .back{
     border: 1px solid rgb(255, 255, 255,0.4);
