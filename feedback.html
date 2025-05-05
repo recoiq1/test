@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تقييم الموقع</title>
+</head>
+<body>
+  <h2>قيّم تجربتك في الموقع</h2>
+  <form action="submit.php" method="post">
+    <label>التقييم:</label><br>
+    <input type="radio" name="rating" value="5"> ممتاز<br>
+    <input type="radio" name="rating" value="4"> جيد جدًا<br>
+    <input type="radio" name="rating" value="3"> جيد<br>
+    <input type="radio" name="rating" value="2"> مقبول<br>
+    <input type="radio" name="rating" value="1"> سيء<br><br>
+
+    <label>ملاحظات:</label><br>
+    <textarea name="feedback" rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="إرسال">
+  </form>
+</body>
+</html>

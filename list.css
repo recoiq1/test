@@ -9,7 +9,7 @@ body {
     background: rgb(34, 36, 34);
     margin: 0;
     padding: 0;
-    height: 112vh;
+    height: 115vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,7 @@ body {
     border: 1px solid rgb(49, 46, 46,0.4);
     box-shadow: 8px 8px 2px black;
     width: 85%;
+    height: 31vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,16 +30,24 @@ body {
     margin:25px 0px;
     padding: 15px 15px;
     border-radius: 25px;
-
+  }
+  .text{
+    width: 100%;
+    min-height: 4vh;
+    max-height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
   }
   .section h2 {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 36px;
     padding-top: 30px;
   }
   .section p {
     color: rgba(255, 255, 255, 0.6);
-    font-size: 26px;
+    font-size: 25px;
     padding-bottom: 125px;
   }
   .images {
@@ -48,7 +57,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:start;
     margin-top: 10px;
     background: rgb(34, 36, 34);
     border-radius: 25px;
@@ -122,6 +131,7 @@ body {
     border-radius: 15px;
     text-align: center;
     margin-top: 50px;
+    scale: 2;
 }
 .back>a{
     text-transform: capitalize;
