@@ -3,21 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <title>تقييم الموقع</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: rgb(34, 36, 34);
+      direction: rtl;
+      text-align: right;
+      padding: 40px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      width:90%;
+      height: 30vh;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+      font-size: 2rem;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="radio"] {
+      margin: 5px;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: vertical;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #28a745;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #218838;
+    }
+    .back{
+    border: 1px solid rgba(46, 48, 45, 0.4);
+    width: 125px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0px 15px;
+  }
+  .back>a{
+      text-transform: capitalize;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 33px;
+  }
+  .back>a>h4{
+      font-weight: 200;
+      margin-bottom:50px;
+  }
+  .back>a>h4:active{
+      background: rgb(0, 128, 0,0.3);
+  }
+  </style>
 </head>
 <body>
-  <h2>قيّم تجربتك في الموقع</h2>
-  <form action="submit.php" method="post">
-    <label>التقييم:</label><br>
-    <input type="radio" name="rating" value="5"> ممتاز<br>
-    <input type="radio" name="rating" value="4"> جيد جدًا<br>
-    <input type="radio" name="rating" value="3"> جيد<br>
-    <input type="radio" name="rating" value="2"> مقبول<br>
-    <input type="radio" name="rating" value="1"> سيء<br><br>
+  <div class="container">
+    <h2>قيّم تجربتك في الموقع</h2>
+    <form action="submit.php" method="post">
+      <label>التقييم:</label>
+      <input type="radio" name="rating" value="5"> ممتاز
+      <input type="radio" name="rating" value="4"> جيد جدًا
+      <input type="radio" name="rating" value="3"> جيد
+      <input type="radio" name="rating" value="2"> مقبول
+      <input type="radio" name="rating" value="1"> سيء
 
-    <label>ملاحظات:</label><br>
-    <textarea name="feedback" rows="4" cols="30"></textarea><br><br>
+      <label>ملاحظات:</label>
+      <textarea name="feedback" rows="4" placeholder="اكتب ملاحظاتك هنا..."></textarea>
 
-    <input type="submit" value="إرسال">
-  </form>
+      <input type="submit" value="إرسال">
+    </form>
+    
+  </div>
+  <div class="back"><a href="index.html"><h4>back</h4></a></div>
 </body>
 </html>
