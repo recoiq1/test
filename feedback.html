@@ -2,7 +2,7 @@
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
-  <title>تقييم الموقع</title>
+  <title>feedback</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -15,28 +15,38 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
     }
     .container {
-      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      align-items: center;
+      background: rgb(34, 36, 34);
+      box-shadow: 13px 13px 2px black;
       padding: 30px;
       width:90%;
       height: 30vh;
       margin: auto;
       border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
     h2 {
-      color: #333;
-      font-size: 2rem;
+      color: rgb(255, 255, 255,0.9);
+      font-size: 2.5rem;
+      
     }
     label {
+      color: rgb(255, 255, 255,0.7);
       display: block;
       margin-top: 15px;
       font-weight: bold;
+      font-size: 2.5rem;
+      margin: 52px 0px;
     }
     input[type="radio"] {
+      color: rgb(255, 255, 255,0.7);
       margin: 5px;
+      font-size: 2.4rem;
     }
     textarea {
       width: 100%;
@@ -59,24 +69,24 @@
       background-color: #218838;
     }
     .back{
-    border: 1px solid rgba(46, 48, 45, 0.4);
-    width: 125px;
+    border: 1px solid rgb(255, 255, 255,0.4);
+    width: 75px;
     border-radius: 15px;
     text-align: center;
-    padding: 0px 15px;
-  }
-  .back>a{
-      text-transform: capitalize;
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      font-size: 33px;
-  }
-  .back>a>h4{
-      font-weight: 200;
-      margin-bottom:50px;
-  }
-  .back>a>h4:active{
-      background: rgb(0, 128, 0,0.3);
+    scale: 2;
+    margin-bottom: 25px;
+}
+.back>a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.back>a>h4{
+    font-weight: 100;
+}
+.back>a>h4:active{
+    background: rgb(0, 128, 0,0.3);
   }
   </style>
 </head>

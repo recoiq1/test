@@ -18,7 +18,7 @@ body {
 
 }
 .section {
-    background:rgb(0, 128, 0,0.1);
+  background: rgb(34, 36, 34);
     border: 1px solid rgb(49, 46, 46,0.4);
     box-shadow: 8px 8px 2px black;
     width: 85%;
@@ -42,13 +42,12 @@ body {
   }
   .section h2 {
     color: #ffffff;
-    font-size: 36px;
-    padding-top: 30px;
+    font-size: 37px;
+    padding-bottom: 30px;
   }
   .section p {
     color: rgba(255, 255, 255, 0.6);
     font-size: 25px;
-    padding-bottom: 125px;
   }
   .images {
     border: 2px solid black;
@@ -70,21 +69,21 @@ body {
     align-items: center;
     width: 100%;
     height:fit-content;
-    animation: pro 33s infinite;
+    animation: pro 35s infinite;
     
   }
   @keyframes pro {
     0%{
-      translate: -650px 0px;
+      translate: -600px 0px;
     }
     50%{
-      translate: 85% 0px;
+      translate: 575px 0px;
     }
     75%{
-      translate: 86% 0px;
+      translate: 595px 0px;
     }
     100%{
-      translate: -650px 0;
+      translate: -600px 0;
     }
   }
 .s{
@@ -94,20 +93,20 @@ body {
   align-items: center;
   width: 100%;
   height:fit-content;
-  animation: s 38s infinite;
+  animation: s 35s infinite;
 }
   @keyframes s {
     0%{
-      translate: -1000px 0;
+      translate: -900px 0;
     }
     50%{
-      translate: 975px 0px;
+      translate: 880px 0px;
     }
     75%{
-      translate: 980px 0px;
+      translate: 890px 0px;
     }
     100%{
-      translate: -1000px 0;
+      translate: -900px 0;
     }
   }
 #beg2,#beg1{
