@@ -146,13 +146,13 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
-.mid>img{
+.mid>a>img{
     width:90px;
     padding: 5px;
-
 }
-.mid>.her{
+.mid>a>.her{
     width: 86px;
 }
 .info{
