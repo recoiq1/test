@@ -6,7 +6,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background: rgb(34, 36, 34);
+    background: linear-gradient(black 70%,rgb(49, 47, 47));
     margin: 0;
     padding: 0;
     height: 115vh;
@@ -53,7 +53,7 @@ body {
     border: 2px solid black;
     width: 100%;
     height: fit-content;
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
     justify-content: center;
     align-items:start;
