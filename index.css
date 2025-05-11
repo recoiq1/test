@@ -6,13 +6,14 @@
     padding: 0%;
     margin: 0;
     border-radius: 5px;
+    user-select: none;
 }
 img{
     border-radius: 10px;
 }
 .cont{
     width: 100%;
-    height: 150vh;
+    height: 140vh;
     background: linear-gradient(black 70%,rgb(49, 47, 47));
     display: flex;
     justify-content: center;
@@ -139,14 +140,47 @@ img{
     display: flex;
 }
 .mid{
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
-    height: 150px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     overflow: hidden;
+}
+.can{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    text-align: center;
+    opacity: 0;
+    animation: can 4s ;
+}
+.can>p{
+    width: 100%;
+    color: white;
+    font-size: 8px;
+}
+@keyframes can {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        scale: 1.5;
+        translate: 0px -2px;
+    }
+    75%{
+        opacity: 0;
+        scale: 1;
+    }
+    100%{
+        opacity: 0;
+        scale: -10;
+    }
 }
 .mid>a>img{
     width:90px;
@@ -241,7 +275,7 @@ input:hover{
 .acont{
     width: 100%;
     position: absolute;
-    bottom:-105px ;
+    bottom:0px ;
     color: rgb(255, 255, 255,0.6);
     text-align: center;
     font-size: 10px;
@@ -256,19 +290,3 @@ input:hover{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.rakan{
-    height: fit-content;
-    position: absolute;
-    bottom: -75px;
-    width: 55%;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    filter: blur(2px);
-}
-.rakan>img{
-    width: 75px;
-    padding:5px;
-}
-

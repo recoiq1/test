@@ -38,7 +38,7 @@ h2{
     text-transform: capitalize;
     margin: 10px;
     font-weight: 900;
-    background: linear-gradient(to top, #ff007f 10px ,#aee449 );
+    background: linear-gradient(to top,rgb(255, 255, 255)  25% ,brown );
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent ;
 }
@@ -77,34 +77,23 @@ p{
 .img3{
     width: 60%;
 }
-.img4{
-
-    height: 25vh;
-    width: 80%;
-    overflow: hidden;
-    
-}
-.img4>img{
-    height: 40vh;
-    scale: 1.5;
-    border-radius: 5px;
-}
 .img5{
     margin: 15px 0px;
-    width: 50%;
-    height: fit-content;
+    width: 90%;
+    height: 35vh;
     overflow: hidden;
 }
 .img5>img{
     height: fit-content;
+    width: 100%;
+    margin-bottom: 200px;
 }
 .backcont{
     width: 100%;
-    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 15px;
 }
 .back{
     border: 1px solid rgb(255, 255, 255,0.4);
