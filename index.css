@@ -162,7 +162,7 @@ img{
 .can>p{
     width: 100%;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
 }
 @keyframes can {
     0%{
@@ -286,7 +286,12 @@ input:hover{
 
 }
 .acont>p{
+    margin-top: 190px;
     width: 45%;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-radius: 0px;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.11) ,rgb(49, 47, 47) 50%,rgba(0, 128, 0, 0.11) );
 }
 .acont>p>a{
     text-decoration: none;
