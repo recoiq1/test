@@ -222,9 +222,11 @@ img{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    
 }
 .fotercont{
-    background: rgba(255, 255, 255, 0.1);
+    background-position:-50px -350px  ;
+    background-size: cover;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -247,12 +249,11 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:rgb(0, 128, 0);
+    border:1px solid rgb(31, 141, 40);
     border-radius: 5px;
 }
 .plan>p{
     width: fit-content;
-    background:rgb(0, 128, 0);
     color: white;
     padding:0px 5px;
     transition: 0.5s;
@@ -297,14 +298,18 @@ input:hover{
 .visitcont{
     width: 100%;
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 5px;
 }
 .visit{
     width: fit-content;
     padding:0px 10px;
-    border:2px solid rgb(31, 141, 40);
+    border:1px solid rgb(31, 141, 40);
 }
 .visit>a{
     display: flex;
@@ -321,9 +326,15 @@ input:hover{
 .visitcont>.visit>a>img{
     width: 25px;
 }
+#text{
+    font-size: 0.7rem;
+    color:#E3E3E3;
+    font-family: "Alexandria", sans-serif;
+}
 #num{
-    color: white;
-    font-weight: 900;
+    font-family: "Cal Sans", sans-serif;
+    color: #E3E3E3;
+    font-weight: 700;
     font-size: 0.8rem;
 }
 .acont>p{
