@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Playwrite+RO:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Alexandria", sans-serif;
+}
+body {
+    height: 100vh;
+    font-family: "Alexandria", sans-serif;
+    background: linear-gradient(black 70%,rgb(49, 47, 47));
+    direction: rtl;
+    flex-direction: column;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.cont{
+    position: relative;
+    width: 45%;
+    height: 50%;
+    border: 3px solid rgb(0, 128, 0,0.4);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.text{
+    padding: 25px;
+    border-radius: 15px;
+    color: white;
+    width: 80%;
+    height: fit-content;
+    font-size: 2.3rem;
+    text-align: center;
+    background: linear-gradient(black 70%,rgb(49, 47, 47));
+    margin:0px 10px;
+    animation: text 8s ;
+    line-height: 65px;
+}
+@keyframes text {
+    0%{
+        translate:0px 0px ;
+    }
+    50%{
+        translate:0px -1000px ;
+    }
+    60%{
+        translate:0px 0px ;
+    }
+    85%{
+        translate:0px 0px ;
+    }
+    100%{
+        translate:0px 0px ;
+    }
+}
+mark{
+    text-transform: uppercase;
+    background: rgb(0, 128, 0,0.4);
+    color: white;
+    border-radius: 15px;
+    padding: 5px 50px;
+}
+.html{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    animation: html 8s ;
+}
+@keyframes html {
+    0%{
+        opacity: 0;
+        translate:0px 1000px ;
+    }
+    50%{
+        opacity: 1;
+        translate:0px 400px ;
+    }
+    60%{
+        opacity: 1;
+        translate:0px 900px ;
+    }
+    85%{
+        opacity: 0.4;
+        translate:0px 1000px ;
+    }
+    100%{
+        opacity: 0;
+        translate:0px 1000px ;
+    }
+}
+.html>h3{
+    text-align: center;
+    text-transform: uppercase;
+    padding:0px 25px;
+    color: white;
+    font-size: 6.7rem;
+    background: rgb(0, 128, 0,0.4);
+    border-radius: 15px;
+}
+.html>p{
+    color: white;
+    font-size: 3.5rem;
+}
+.backcont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+}
+.back{
+    border: 1px solid rgb(255, 255, 255,0.4);
+    width: 75px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+.back>a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.back>a>h4{
+    font-weight: 100;
+}
+.back>a>h4:active{
+    background: rgb(0, 128, 0,0.3);
+}
